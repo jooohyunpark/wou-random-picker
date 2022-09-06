@@ -1,14 +1,10 @@
 {
-  "name": "itp-wou-randomizer",
+  "name": "wou-random-picker",
   "version": "1.0.0",
   "description": "Node script to pick random presenter/reviewer pair.",
   "main": "index.js",
   "scripts": {
     "get": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jooohyunpark/itp-wou-randomizer.git"
   },
   "author": "Joohyun Park",
   "license": "ISC",
