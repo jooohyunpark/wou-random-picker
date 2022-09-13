@@ -2,9 +2,9 @@
   "name": "wou-random-picker",
   "version": "1.0.0",
   "description": "Node script to pick random presenter/reviewer pair.",
-  "main": "index.js",
   "scripts": {
-    "get": "node index.js"
+    "get": "node index.js",
+    "get:final": "node final.js"
   },
   "author": "Joohyun Park",
   "license": "ISC",

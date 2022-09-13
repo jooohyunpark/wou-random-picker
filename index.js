@@ -10,12 +10,12 @@ const count = argv.n || 1;
 
 const result = [];
 
-const shuffledData = data.sort((a, b) => 0.5 - Math.random());
+data.sort((a, b) => 0.5 - Math.random());
 
 for (let i = 0; i < count; i++) {
   const object = {
-    presenter: shuffledData.pop(),
-    reviewer: shuffledData.pop(),
+    presenter: data.pop(),
+    reviewer: data.pop(),
   };
   result.push(object);
 }
