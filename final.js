@@ -10,7 +10,7 @@ for (let i = 0; i < data.length; i++) {
   const presenter = shuffledData1.shift();
   let reviewer = shuffledData2.shift();
 
-  if (presenter === reviewer) {
+  while (presenter === reviewer) {
     shuffledData2.push(reviewer);
     reviewer = shuffledData2.shift();
   }
@@ -19,6 +19,7 @@ for (let i = 0; i < data.length; i++) {
     presenter,
     reviewer,
   };
+
   result.push(object);
 }
 
